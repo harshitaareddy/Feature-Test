@@ -40,6 +40,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <a class="nav-link" href="{{ route('contact') }}">{{ __('contact') }}</a>
+                        <a class="nav-link" href="{{ route('about') }}">{{ __('about') }}</a>
                         <!-- Authentication Links -->
                         @guest
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>

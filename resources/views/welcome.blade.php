@@ -68,6 +68,7 @@
         <div class="flex-center position-ref full-height">
             <div class="top-right links">
                 <a class=nav-link" href="{{route('contact')}}">Contact</a>
+                <a class=nav-link" href="{{route('about')}}">About</a>
             @if (Route::has('login'))
 
                     @auth
